@@ -11,7 +11,7 @@ public class Main {
         String inputStr = scanner.next();
 
         Main main1 = new Main();
-        main1.countAlphabetFromInputString(arrayIndicatingAlphabetOrder, inputStr);
+         main1.countAlphabetFromInputString(arrayIndicatingAlphabetOrder, inputStr);
 
         theMostAlphabet = main1.findOutTheMostAlphabet(arrayIndicatingAlphabetOrder);
 
